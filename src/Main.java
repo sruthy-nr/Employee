@@ -35,6 +35,19 @@ public class Main {
                         email[a]=sc.next();
                     }
                     break;
+                case 2:
+                    System.out.println("EMPLOYEE DETAILS");
+                    for(int a=0;a<5;a++){
+                        System.out.println("\nEMPLOYEE CODE:"+emp_code[a]);
+                        System.out.println("EMPLOYEE NAME:"+name[a]);
+                        System.out.println("DESIGNATION:"+designation[a]);
+                        System.out.println("SALARY:"+salary[a]);
+                        System.out.println("COMPANY NAME:"+company[a]);
+                        System.out.println("PHONE NUMBER:"+phone[a]);
+                        System.out.println("EMAIL:"+email[a]);
+                        System.out.println("");
+                    }
+                    break;
                 default:
                     System.out.println("Invalid choice...Enter a valid choice.");
                     break;
